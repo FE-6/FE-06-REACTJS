@@ -6,6 +6,7 @@ import News from './components/News'
 import Login from './pages/Login'
 import FormData from './pages/FormData'
 
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,6 @@ function App() {
       </Navbar> */}
       <Navbar/>
       <News/>
-      <Login/>
     </div>
   )
 }
