@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import News from './components/News'
 import Login from './pages/Login'
+import FormData from './pages/FormData'
 
 function App() {
   return (
