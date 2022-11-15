@@ -17,22 +17,40 @@ export default function FormData() {
   
     return (
       <div>
-        <h3>Masukan Nama</h3>
+        <h2>Add Berita</h2>
         <form onSubmit={handleSubmit}>
-          <label>
-            Nama:
-            <input type="text" value={state} onChange={handleChange} />
-          </label>
+            <div>
+                <label>
+                Judul Berita:
+                <input type="text" value={state} onChange={handleChange} className="form-control"/>
+                </label>
+            </div>
+            <div>
+                <label>
+                Name:
+                <input type="text" value={state} onChange={handleChange} className="form-control"/>
+                </label>
+            </div>
+            <div>
+                <label>
+                Judul Berita:
+                <input type="text" value={state} onChange={handleChange} className="form-control"/>
+                </label>
+            </div>
+            <div>
+                <label>
+                Gambar 
+                <input type="file" ref={fileInput} style={{marginLeft: "5px"}} className="form-control"/>
+                </label>
+            </div>
           
         </form>
-        <h3>Upload File</h3>
-        <form onSubmit={handleSubmit}>
-            <label>
-            Pilih File 
-            <input type="file" ref={fileInput} style={{marginLeft: "5px"}} />
-            </label>
-        </form>
-        <input type="submit" value="Submit" />
+        <div className="mb-2">
+            <input type="submit" value="Submit" className="btn btn-secondary" />
+        </div>
+        <div className="mb-2">
+        <input type="submit" value="Back" className="btn btn-primary" />
+        </div>
       </div>
     );
   }

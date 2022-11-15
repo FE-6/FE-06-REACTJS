@@ -20,6 +20,7 @@ function App() {
       <Navbar/>
       <News/>
       <Login/>
+      <FormData/>
     </div>
   )
 }
