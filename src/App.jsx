@@ -2,7 +2,7 @@
 // import reactLogo from './assets/react.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-import News from './components/News'
+import News from './pages/News'
 import Login from './pages/Login'
 import FormData from './pages/FormData'
 import { Routes, Route } from "react-router-dom";
@@ -20,6 +20,8 @@ function App() {
       </Navbar> */}
       <Navbar/>
       <News/>
+      <Login/>
+      <FormData/>
     </div>
   )
 }
