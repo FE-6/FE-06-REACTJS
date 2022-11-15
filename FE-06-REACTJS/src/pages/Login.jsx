@@ -17,11 +17,11 @@ export class Login extends Component {
                                     <label for="exampleInputPassword1">Password</label>
                                     <input type="password" className="form-control" placeholder="Password" />
                                 </div>
-                                <div class="form-check">
+                                <div className="form-check">
                                     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
                                     <label className="form-check-label" for="exampleCheck1">Remember Me</label>
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>   
+                                    <button type="submit" className="btn btn-primary btn-lg btn-block">Login</button>   
                             </form>
                         </div>
                 </div>
